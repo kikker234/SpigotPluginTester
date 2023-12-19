@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9gjCR2Fjbf0W4JzNDGqtwUCEbV7gxqLAF493e2eD2TVE1IrmrMOn3peifUzBBzyo/4fuTpyZ4B6i1u5wS1MPGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jusra\\RiderProjects\\SpigotPluginTester\\SpigotPluginTester\\SpigotPluginTester.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jusra\\.nuget\\packages\\spigotframework\\0.1.0\\spigotframework.0.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

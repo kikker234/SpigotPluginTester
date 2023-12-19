@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "SpigotFramework/0.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/SpigotFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/SpigotFramework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SpigotFramework/0.1.0": {
+      "sha512": "WP9Pg9qQ9yz7qz673NDTYhyzu4PM7vieQ8mgcAuoasnvGf6s19PQQgnj3dDkDifYeMM2AU72bsmDX6liJPozgA==",
+      "type": "package",
+      "path": "spigotframework/0.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/SpigotFramework.dll",
+        "spigotframework.0.1.0.nupkg.sha512",
+        "spigotframework.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "SpigotFramework >= 0.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jusra\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jusra\\RiderProjects\\SpigotPluginTester\\SpigotPluginTester\\SpigotPluginTester.csproj",
+      "projectName": "SpigotPluginTester",
+      "projectPath": "C:\\Users\\jusra\\RiderProjects\\SpigotPluginTester\\SpigotPluginTester\\SpigotPluginTester.csproj",
+      "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jusra\\RiderProjects\\SpigotPluginTester\\SpigotPluginTester\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "SpigotFramework": {
+            "target": "Package",
+            "version": "[0.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
